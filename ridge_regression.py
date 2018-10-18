@@ -10,10 +10,14 @@ from sklearn import linear_model
 X = 1. / (np.arange(1, 6) + np.arange(0, 10)[:, np.newaxis])
 y = np.ones(10)
 
+print('设计矩阵为：')
+print(X)
 
 # alpha 取值为10^（-10）到10^（-2）之间的连续的200个值
 n_alphas = 200
 alphas = np.logspace(-10, -2, n_alphas)
+print('\n alpha的值为：')
+print(alphas)
 
 # 初始化一个Ridge Regression
 clf = linear_model.Ridge(fit_intercept=False)
