@@ -2,7 +2,6 @@
 """
 ex11_one_layer_nn on Mnist
 
-Yao Wei
 2019/04/17
 
 """
