@@ -2,7 +2,6 @@
 """
 ex10_3layer_CNN on Mnist
 
-Yao Wei
 2019/04/17
 
 """
